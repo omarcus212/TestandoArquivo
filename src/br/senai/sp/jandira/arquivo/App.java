@@ -7,14 +7,17 @@ public class App {
 		
 		
 		
-		Arquivo arquivo = new Arquivo();
-		String caminho = "C:\\Users\\21276377\\eclipse-workspace\\AQV\\arquivotxt";
-		String testando =  "testando o gravar na pasta senai ";
+		//Arquivo arquivo = new Arquivo();
+		//String caminho = "C:\\Users\\21276377\\eclipse-workspace\\AQV\\arquivotxt";
+		//String testando =  "testando o gravar na pasta senai ";
 		
-		String tets = arquivo.ler(caminho)+"olaaaaaaaa";
+		//String tets = arquivo.ler(caminho)+"olaaaaaaaa";
 		
 		
-		arquivo.gravar(caminho, tets);
+		//arquivo.gravar(caminho, tets);
+		
+		//arquivo.gravar(caminho, testando);
+		
 		
 		Frame frame = new Frame();
 		frame.setVisible(true);
@@ -22,7 +25,7 @@ public class App {
 		
 		
 		
-	//arquivo.gravar(caminho, testando);
+
 
 	}
 

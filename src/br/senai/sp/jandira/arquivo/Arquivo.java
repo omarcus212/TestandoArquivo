@@ -42,11 +42,13 @@ public class Arquivo {
 			BufferedReader lerdados = new BufferedReader(lerArquivo);
 
 			String linha = "";
-
+ 
+			String quebrar ="\n";
+			
+			
 			linha = lerdados.readLine();
 			while (linha != null) {
-
-				conteudo += linha + "\n";
+				conteudo += linha+quebrar;
 				linha = lerdados.readLine();
 			}
 			lerdados.close();
